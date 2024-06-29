@@ -13,7 +13,7 @@ CityData
 
 Classes e Funções
 
- WeatherService
+  WeatherService
  
 Esta classe é responsável por realizar as requisições à API do OpenWeatherMap e processar os dados recebidos.
 
