@@ -6,8 +6,11 @@ Estrutura do Projeto
 O projeto está organizado em três classes principais:
 
 WeatherService
+
 Main
+
 CityData
+
 Classes e Funções
 
  WeatherService
