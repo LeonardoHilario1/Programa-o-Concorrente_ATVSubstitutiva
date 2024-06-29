@@ -48,7 +48,7 @@ Como Executar
 
 Obtenha uma chave de API do OpenWeatherMap:
 
-Registre-se em OpenWeatherMap e obtenha uma chave de API.
+Registre-se em  https://openweathermap.org e obtenha uma chave de API.
 Substitua a chave de API no código:
 
 No arquivo WeatherService.java, substitua API_KEY pela sua chave de API.
