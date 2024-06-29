@@ -53,9 +53,8 @@ Compile e execute o código:
 
 Compile todas as classes e execute a classe Main.
 sh
-Copiar código
-javac Experimento/*.java
-java Experimento.Main
+
+
 
 Resultados Esperados
 
