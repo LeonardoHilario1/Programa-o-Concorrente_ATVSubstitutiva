@@ -13,21 +13,32 @@ Classes e Funções
 Esta classe é responsável por realizar as requisições à API do OpenWeatherMap e processar os dados recebidos.
 
 API_KEY: Chave da API para acessar os dados meteorológicos.
+
 fazerRequisicao(CityData cidade): Método que faz a requisição HTTP para obter os dados de temperatura de uma cidade específica e retorna um mapa contendo a temperatura mínima, máxima e média.
+
 processarDados(String cidade, List<Double> temperaturas): Método que processa e imprime os dados meteorológicos no console.
+
 2. Main
 Esta classe é responsável por executar o experimento com diferentes números de threads.
 
 main(String[] args): Método principal que define a lista de capitais brasileiras e executa o experimento várias vezes com diferentes configurações de threads.
+
 executarExperimentoVariasVezes(int numThreads, List<CityData> capitais, int repeticoes): Método que executa o experimento várias vezes e calcula o tempo médio de execução.
+
 executarExperimento(int numThreads, List<CityData> capitais): Método que seleciona a versão do algoritmo a ser executada (com ou sem threads).
+
 executarVersaoReferencia(List<CityData> capitais): Método que executa a versão do algoritmo sem threads.
+
 executarVersaoComThreads(int numThreads, List<CityData> capitais): Método que executa a versão do algoritmo utilizando múltiplas threads.
+
 3. CityData
+
 Esta classe representa os dados de uma cidade, incluindo nome, latitude e longitude.
 
 CityData(String nome, double latitude, double longitude): Construtor que inicializa os dados da cidade.
+
 Como Executar
+
 Obtenha uma chave de API do OpenWeatherMap:
 
 Registre-se em OpenWeatherMap e obtenha uma chave de API.
@@ -41,5 +52,7 @@ sh
 Copiar código
 javac Experimento/*.java
 java Experimento.Main
+
 Resultados Esperados
+
 O programa executará o algoritmo com 0, 3, 9 e 27 threads, e imprimirá o tempo médio de execução para cada configuração. Os resultados demonstrarão como o uso de threads pode impactar o desempenho do algoritmo.
