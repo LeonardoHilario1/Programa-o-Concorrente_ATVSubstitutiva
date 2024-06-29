@@ -9,7 +9,9 @@ WeatherService
 Main
 CityData
 Classes e Funções
-1. WeatherService
+
+ WeatherService
+ 
 Esta classe é responsável por realizar as requisições à API do OpenWeatherMap e processar os dados recebidos.
 
 API_KEY: Chave da API para acessar os dados meteorológicos.
@@ -18,7 +20,8 @@ fazerRequisicao(CityData cidade): Método que faz a requisição HTTP para obter
 
 processarDados(String cidade, List<Double> temperaturas): Método que processa e imprime os dados meteorológicos no console.
 
-2. Main
+ Main
+   
 Esta classe é responsável por executar o experimento com diferentes números de threads.
 
 main(String[] args): Método principal que define a lista de capitais brasileiras e executa o experimento várias vezes com diferentes configurações de threads.
@@ -31,7 +34,8 @@ executarVersaoReferencia(List<CityData> capitais): Método que executa a versão
 
 executarVersaoComThreads(int numThreads, List<CityData> capitais): Método que executa a versão do algoritmo utilizando múltiplas threads.
 
-3. CityData
+ 
+ CityData
 
 Esta classe representa os dados de uma cidade, incluindo nome, latitude e longitude.
 
